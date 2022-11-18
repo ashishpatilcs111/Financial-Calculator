@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Financial Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js"></script>
+</head>
+<body>
+ <div class="container">
+	<div class="header">
+        <div class="logo"><img src="logo4.png"></div>
+		<div class="heading"><h1 align="center">Financial Calculator</h1></div>
+	</div>
+	<div class="slidebar">
+		<div class="options"></div>
+		<div class="options"><a href="index.html">Simple Interest</a></div>
+		<div class="options"><a href="CompoundInterest.html">Compound Interest</a></div>
+		<div class="options"><a href="SIP.html">SIP</a></div>
+		<div class="options"><a href="">Lumpsum</a></div>
+		<div class="options"><a href="">EMI Calculator</a></div>
+		<div class="options"><a href="">Income Tax Calculator</a> </div>
+		<div class="options"><a href="">FD Calculator</a></div>
+		<div class="options"><a href="">RD Calculator</a></div>
+	</div>
+	<div class="main">
+		<br><br><br>
+		<input id="p" type="text" placeholder="Principal" required><br><br><br>
+		<input id="r" type="text" placeholder="Rate" required><br><br><br>
+		<input id="t" type="text" placeholder="Time" required><br><br><br>
+		<button onclick="SimInt()">Calculate SI</button><br><br><br>
+		<div class="result"><h3 id="si">Result</h3></div>
+		
+	</div>
+ </div>
+</body>
+</html>
